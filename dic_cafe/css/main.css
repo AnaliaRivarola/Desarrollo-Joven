@@ -1,0 +1,292 @@
+@charset "utf-8";
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 75px;
+    background-image: url("../images/sample_menu_bg.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    font-size: 20px;
+}
+
+div,
+li {
+    box-sizing: border-box;
+}
+
+.header_nav {
+    background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.global_nav_item {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.global_nav_item:hover {
+    background: #fff;
+    color: #42210b;
+}
+
+.global_nav {
+    display: flex;
+    align-items: stretch;
+}
+
+.logo {
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.section_inner {
+    padding: 50px 10% 30px;
+}
+
+.key {
+    height: 500px;
+    background: center / cover no-repeat url("../images/sample_key.jpg");
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+}
+
+.key h1 {
+    margin-top: 150px;
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+
+.key p {
+    margin-left: 20px;
+}
+
+.section_title {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20%;
+}
+
+.menu_title {
+    display: inline-block;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #42210b;
+    border-bottom: solid #42210b 1px;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.caffee_menu_image {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.img_concept {
+    float: right;
+    width: 35%;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    width: 49%;
+    background-color: #fff;
+}
+
+.item-image {
+    width: 49%;
+    margin-right: 1%;
+}
+
+.item-content {
+    width: 50%;
+}
+
+.item-content h2 {
+    margin-top: 0;
+    font-size: 16px;
+    margin-left: 25%;
+}
+
+.item-content p {
+    margin-bottom: 0;
+    font-size: 10px;
+    margin-left: 25%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.coffee-menu li {
+    width: 49%;
+}
+
+.coffee-content {
+    align-items: center;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+.coffee-image {
+    width: 20%;
+    margin-right: 1%;
+    border-radius: 50%;
+}
+
+.coffee-content h2,
+.coffee-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+/* Estilos adicionales */
+
+.coffee-content h2 {
+    margin-bottom: 0.5rem;
+}
+
+.container-coffee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* Ajusta la altura según tus necesidades */
+}
+
+.coffee-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt {
+    width: 30%;
+    font-weight: bold;
+}
+
+dd {
+    width: 70%;
+    margin-left: 0;
+}
+
+dd br {
+    display: none;
+}
+
+dd:before {
+    content: "• ";
+}
+
+dd:before,
+dd br:before {
+    display: block;
+}
+
+#map-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+
+.footer-container {
+    background-color: #251e19;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-container nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.footer-container nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-container nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container nav li a:hover {
+    text-decoration: underline;
+}
+
+.footer-container nav li img {
+    height: 30px;
+}
+
+.footer-copywrite {
+    margin-top: 20px;
+}
