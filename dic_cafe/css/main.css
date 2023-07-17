@@ -135,8 +135,9 @@ li {
 .list-item {
     display: flex;
     align-items: center;
-    width: 49%;
+    width: 55%;
     background-color: #fff;
+    margin-left: 50px;
 }
 
 .item-image {
@@ -175,7 +176,7 @@ li {
     align-items: center;
     margin-top: 50px;
     background-color: #fff;
-    padding: 20px;
+    margin: 20px;
     flex-direction: column;
     align-items: flex-start;
     display: flex;
@@ -222,7 +223,7 @@ dl {
 }
 
 dt {
-    width: 30%;
+    width: 80px;
     font-weight: bold;
 }
 
@@ -260,6 +261,7 @@ dd br:before {
     padding: 20px;
     text-align: center;
     margin-top: auto;
+    height: 75px;
 }
 
 .footer-container nav ul {
