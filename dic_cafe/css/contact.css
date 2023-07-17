@@ -70,3 +70,41 @@ select {
 .reset_btn {
     background: #e6e6e6;
 }
+
+.footer-container {
+    background-color: #251e19;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    height: 75px;
+}
+
+.footer-container nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.footer-container nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-container nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container nav li a:hover {
+    text-decoration: underline;
+}
+
+.footer-container nav li img {
+    height: 30px;
+}
+
+.footer-copywrite {
+    margin-top: 20px;
+}
