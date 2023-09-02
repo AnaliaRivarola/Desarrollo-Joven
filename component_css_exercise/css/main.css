@@ -328,6 +328,33 @@ body {
     font-family: 'Noto Serif JP', serif;
 }
 
+.pancake_menu_content {
+    width: 80%;
+    /* Cambiar el valor según tus preferencias */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+}
+
+
+/* Aumentar el ancho de la imagen */
+
+.pancake_menu_image {
+    width: 100%;
+    /* Cambiar el valor según tus preferencias */
+    object-fit: cover;
+    height: 300px;
+    /* Ajusta la altura según tus preferencias */
+}
+
+.menu_list_pancake {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+
 
 /* ボタンコンポーネント */
 
